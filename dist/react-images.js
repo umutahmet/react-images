@@ -1239,7 +1239,7 @@ var Lightbox = function (_Component) {
 				},
 				React__default.createElement(
 					'div',
-					null,
+					{ className: aphrodite.css(this.classes.contentContainer) },
 					React__default.createElement(
 						'div',
 						{ className: aphrodite.css(this.classes.content), style: { marginBottom: offsetThumbnails, maxWidth: width } },

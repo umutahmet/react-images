@@ -1237,7 +1237,7 @@ var Lightbox = function (_Component) {
 				},
 				React.createElement(
 					'div',
-					null,
+					{ className: css(this.classes.contentContainer) },
 					React.createElement(
 						'div',
 						{ className: css(this.classes.content), style: { marginBottom: offsetThumbnails, maxWidth: width } },
